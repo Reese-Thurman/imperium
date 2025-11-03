@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imperium — Command the Stars</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="starfield"></div>
+
+  <header class="hud">
+    <div class="logo-wrap">
+      <img src="assets/logo.svg" alt="Imperium logo" class="logo">
+      <div class="branding">
+        <h1>IMPERIUM</h1>
+        <small>Command the Stars</small>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="features.html">Features</a>
+      <a href="universe.html">Universe</a>
+      <a href="play.html">Play</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-grid">
+      <section class="hero-left">
+        <h2>DOMINION THROUGH STRATEGY</h2>
+        <p>Build fleets. Secure planets. Wage war across star systems. Imperium is a tick-based, strategic galaxy conquest game of military might and cunning diplomacy.</p>
+        <div class="cta">
+          <a class="btn primary" href="play.html">Enter Command</a>
+          <a class="btn ghost" href="features.html">View Mechanics</a>
+        </div>
+        <div class="stats">
+          <div><strong>Ticks:</strong> Every 5–10 min</div>
+          <div><strong>Ships:</strong> Customizable 2D fleets</div>
+          <div><strong>Planets:</strong> Colonize & extract resources</div>
+        </div>
+      </section>
+
+      <section class="hero-right">
+        <div class="hud-panel map-panel">
+          <div id="minimap" class="minimap"></div>
+          <div class="panel-footer">Sector Alpha • 24 systems detected</div>
+        </div>
+
+        <div class="hud-panel info-panel">
+          <h3>Current Objective</h3>
+          <p>Establish a foothold in the nearest habitable system. Deploy landing crew to claim the research outpost.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 Imperium • All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
